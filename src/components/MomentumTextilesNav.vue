@@ -21,7 +21,7 @@
             <img src="../assets/mt_menu_hh_button.gif" width="84" height="32">
         </div>
         <div class="flex flex-col pb-4">
-            <router-link to="/sinaperason" class="no-underline font-sans text-grey hover:text-orange text-xs mb-2">Sina
+            <router-link to="/sinapearson" class="no-underline font-sans text-grey hover:text-orange text-xs mb-2">Sina
                 Pearson
             </router-link>
             <router-link to="/loomsource" class="no-underline font-sans text-grey hover:text-orange text-xs mb-2">
