@@ -95,5 +95,17 @@ export default new Router({
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/SinaPearsonDesign.vue")
     },
+    {
+      path: "/color_stories",
+      name: "colorStories",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/ColorStories.vue")
+    },
+    {
+      path: "/color_story_november_2018",
+      name: "colorStoryNovember2018",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/ColorNovember2018.vue")
+    }
   ]
 });

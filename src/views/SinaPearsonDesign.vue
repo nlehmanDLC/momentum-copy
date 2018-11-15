@@ -1,6 +1,7 @@
 <template>
     <div class="h-full flex flex-col">
         <heading>
+            <img src="../assets/design.gif">
             <template slot="brand"><img src="../assets/sinapearson_logo.gif"></template>
         </heading>
         <div class="flex-1 flex overflow-y-auto">
