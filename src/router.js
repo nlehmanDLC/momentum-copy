@@ -118,6 +118,18 @@ export default new Router({
       name: "travelJournalBarcelona",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/TravelJournalBarcelona.vue")
+    },
+    {
+      path: "/sina_pearson_press",
+      name: "sinaPearsonPress",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/SinaPearsonPress.vue")
+    },
+    {
+      path: "/sp_pr_2017_01",
+      name: "sinaPearsonPress201701",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/SinaPearsonPress201701.vue")
     }
   ]
 });
