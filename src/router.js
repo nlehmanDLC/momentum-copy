@@ -82,6 +82,12 @@ export default new Router({
       name: "textus",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/Textus.vue")
+    },
+    {
+      path: "/sina_pearson_collections",
+      name: "sinaPearsonCollections",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/SinaPearsonCollections.vue")
     }
   ]
 });

@@ -8,11 +8,11 @@
       <div class="font-sans text-grey-dark text-sm leading-normal text-justify" style="width: 550px;">
         Momentum Group is one of the nation’s leading creators of <router-link to="/environment" class="text-green no-underline">sustainable</router-link> contract textiles. It is the tie
         that binds four innovators in the textile design industry:
-        <a href="#" class="text-grey-darker hover:text-orange no-underline">Sina Pearson</a>,
-        <a href="#" class="text-grey-darker hover:text-orange no-underline">Momentum Textiles</a>,
-        <a href="#" class="text-grey-darker hover:text-orange no-underline">LoomSource</a>
+        <router-link to="/sinapearson" class="text-grey-darker hover:text-orange no-underline">Sina Pearson</router-link>,
+        <router-link to="/momentum_textiles" class="text-grey-darker hover:text-orange no-underline">Momentum Textiles</router-link>,
+        <router-link to="loomsource" class="text-grey-darker hover:text-orange no-underline">LoomSource</router-link>
         and
-        <a href="#" class="text-grey-darker hover:text-orange no-underline">Textus</a>.
+        <router-link to="textus" class="text-grey-darker hover:text-orange no-underline">Textus</router-link>.
       </div>
     </div>
     <div class="flex h-full">

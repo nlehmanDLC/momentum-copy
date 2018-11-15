@@ -4,7 +4,7 @@
             <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
                 Products
             </router-link>
-            <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">Collections
+            <router-link to="/sina_pearson_collections" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">Collections
             </router-link>
             <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">Design
             </router-link>
