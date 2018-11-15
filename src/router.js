@@ -106,6 +106,18 @@ export default new Router({
       name: "colorStoryNovember2018",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/ColorNovember2018.vue")
+    },
+    {
+      path: "/travel_journals",
+      name: "travelJournals",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/TravelJournals.vue")
+    },
+    {
+      path: "/travel_journal_barcelona",
+      name: "travelJournalBarcelona",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/TravelJournalBarcelona.vue")
     }
   ]
 });
