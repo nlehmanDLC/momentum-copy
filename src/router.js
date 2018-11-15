@@ -136,6 +136,12 @@ export default new Router({
       name: "sinaPearsonAwards",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/SinaPearsonAwards.vue")
+    },
+    {
+      path: "/momentum_textiles_news",
+      name: "momentumTextilesNews",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/MomentumTextilesNews.vue")
     }
   ]
 });
