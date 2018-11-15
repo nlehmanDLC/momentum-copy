@@ -19,7 +19,7 @@
             <router-link to="/sina_pearson_press" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
                 Press
             </router-link>
-            <router-link to="/sinapearson" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
+            <router-link to="/sina_pearson_awards" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
                 Awards
             </router-link>
         </div>

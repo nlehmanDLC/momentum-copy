@@ -130,6 +130,12 @@ export default new Router({
       name: "sinaPearsonPress201701",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/SinaPearsonPress201701.vue")
+    },
+    {
+      path: "/sina_pearson_awards",
+      name: "sinaPearsonAwards",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/SinaPearsonAwards.vue")
     }
   ]
 });
