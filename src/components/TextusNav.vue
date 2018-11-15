@@ -8,10 +8,10 @@
                 News
             </router-link>
             <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
-                Design
+                Constructions
             </router-link>
             <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
-                History
+                Design
             </router-link>
         </div>
         <div class="flex flex-col pb-4">
@@ -21,14 +21,14 @@
             <router-link to="/momentum_textiles" class="no-underline font-sans text-grey hover:text-orange text-xs mb-2">
                 Momentum Textiles
             </router-link>
-            <router-link to="/textus" class="no-underline font-sans text-grey hover:text-orange text-xs mb-2">
-                Textus
+            <router-link to="/loomsource" class="no-underline font-sans text-grey hover:text-orange text-xs mb-2">
+                LoomSource
             </router-link>
         </div>
     </div>
 </template>
 <script>
 export default {
-  name: "loom-source-nav"
+  name: "textus-nav"
 };
 </script>
