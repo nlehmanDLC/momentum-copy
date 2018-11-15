@@ -1,15 +1,18 @@
 <template>
     <div>
-        <img class="mt-20" :src="getImage()"/>
+        <img :src="getImage()"/>
     </div>
 </template>
 
 <script>
 export default {
+  props: {
+    imageList: Array
+  },
   methods: {
     getImage() {
-      let randomImage = Math.floor(Math.random() * 4) + 1;
-      return require("../assets/chicago_2015_0" + randomImage + ".jpg");
+      let randomImage = Math.floor(Math.random() * this.imageList.length);
+      return require("../assets/" + this.imageList[randomImage]);
     }
   }
 };

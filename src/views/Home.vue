@@ -25,7 +25,7 @@
         </div>
       </div>
       <div>
-        <carousel></carousel>
+        <carousel class="mt-20" :image-list="imageList"></carousel>
       </div>
     </div>
   </div>
@@ -39,6 +39,16 @@ export default {
   name: "home",
   components: {
     Carousel
+  },
+  data() {
+    return {
+      imageList: [
+        "chicago_2015_01.jpg",
+        "chicago_2015_02.jpg",
+        "chicago_2015_03.jpg",
+        "chicago_2015_04.jpg"
+      ]
+    };
   }
 };
 </script>
