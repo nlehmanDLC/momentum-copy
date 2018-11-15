@@ -88,6 +88,12 @@ export default new Router({
       name: "sinaPearsonCollections",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/SinaPearsonCollections.vue")
-    }
+    },
+    {
+      path: "/sina_pearson_design",
+      name: "sinaPearsonDesign",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/SinaPearsonDesign.vue")
+    },
   ]
 });
