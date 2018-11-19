@@ -138,6 +138,12 @@ export default new Router({
         import(/* webpackChunkName: "about" */ "./views/SinaPearsonAwards.vue")
     },
     {
+      path: "/products",
+      name: "products",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/Products.vue")
+    },
+    {
       path: "/momentum_textiles_news",
       name: "momentumTextilesNews",
       component: () =>

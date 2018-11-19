@@ -1,0 +1,316 @@
+{
+  "collections": [
+    {
+      "title":"African Stripe",
+      "brand":50,
+      "collection_number": 159,
+      "default_colorway": 81,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 0,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Madder",
+          "colorway_number": 28,
+          "image": "safrican_stripe_159-28_madder.jpg",
+          "thumb": "cafrican_stripe_159-28_madder.jpg"
+        },
+        {
+          "title": "Cochineal",
+          "colorway_number": 30,
+          "image": "safrican_stripe_159-30_cochineal.jpg",
+          "thumb": "cafrican_stripe_159-30_cochineal.jpg"
+        },
+        {
+          "title": "Potash",
+          "colorway_number": 62,
+          "image": "safrican_stripe_159-62_potash.jpg",
+          "thumb": "cafrican_stripe_159-62_potash.jpg"
+        },
+        {
+          "title": "Serengeti",
+          "colorway_number": 75,
+          "image": "safrican_stripe_159-75_serengeti.jpg",
+          "thumb": "cafrican_stripe_159-75_serengeti.jpg"
+        },
+        {
+          "title": "Bone",
+          "colorway_number": 80,
+          "image": "safrican_stripe_159-80_bone.jpg",
+          "thumb": "cafrican_stripe_159-80_bone.jpg"
+        },
+        {
+          "title": "Ivory",
+          "colorway_number": 81,
+          "image": "safrican_stripe_159-81_ivory.jpg",
+          "thumb": "kafrican_stripe_159-81_ivory.jpg"
+        },
+        {
+          "title": "Elephant",
+          "colorway_number": 87,
+          "image": "safrican_stripe_159-87_elephant.jpg",
+          "thumb": "cafrican_stripe_159-87_elephant.jpg"
+        },
+        {
+          "title": "Bark Cloth",
+          "colorway_number": 91,
+          "image": "safrican_stripe_159-91_bark_cloth.jpg",
+          "thumb": "cafrican_stripe_159-91_bark_cloth.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Alhambra",
+      "brand":50,
+      "collection_number": 401,
+      "default_colorway": 51,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 1,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Midnight",
+          "colorway_number": 51,
+          "image": "salhambra_401-51_midnight.jpg",
+          "thumb": "kalhambra_401-51_midnight.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Allover",
+      "brand":50,
+      "collection_number": 372,
+      "default_colorway": 82,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 1,
+      "outdoor": 1,
+      "colorways": [
+        {
+          "title": "Ice Cap",
+          "colorway_number": 82,
+          "image": "sallover_372-82_ice_cap.jpg",
+          "thumb": "kallover_372-82_ice_cap.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Anywhere",
+      "brand":50,
+      "collection_number": 371,
+      "default_colorway": 75,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 1,
+      "outdoor": 1,
+      "colorways": [
+        {
+          "title": "Poolside",
+          "colorway_number": 75,
+          "image": "sanywhere_371-75_poolside.jpg",
+          "thumb": "kanywhere_371-75_poolside.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Bauhaus Texture",
+      "brand":50,
+      "collection_number": 174,
+      "default_colorway": 81,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 0,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Ivory Grey",
+          "colorway_number": 81,
+          "image": "sbauhaus_texture_174-81_ivory_grey.jpg",
+          "thumb": "kbauhaus_texture_174-81_ivory_grey.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Beachcomber",
+      "brand":50,
+      "collection_number": 178,
+      "default_colorway": 79,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 0,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Rosario Beach",
+          "colorway_number": 79,
+          "image": "sbeachcomber_178-79_rosario_beach.jpg",
+          "thumb": "kbeachcomber_178-79_rosario_beach.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Beachcomber II",
+      "brand":50,
+      "collection_number": 482,
+      "default_colorway": 62,
+      "crypton": 1,
+      "coated": 0,
+      "bleach_cleanable": 1,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Calm",
+          "colorway_number": 62,
+          "image": "sbeachcomber_ii_482-62_calm.jpg",
+          "thumb": "kbeachcomber_ii_482-62_calm.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Bear",
+      "brand":50,
+      "collection_number": 230,
+      "default_colorway": 91,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 0,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Brown Bear",
+          "colorway_number": 91,
+          "image": "sbear_230-91_brown_bear.jpg",
+          "thumb": "kbear_230-91_brown_bear.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Big Dots",
+      "brand":50,
+      "collection_number": 332,
+      "default_colorway": 62,
+      "crypton": 1,
+      "coated": 0,
+      "bleach_cleanable": 0,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Blue with Charcoal",
+          "colorway_number": 62,
+          "image": "sbig_dots_332-62_blue_with_charcoal.jpg",
+          "thumb": "kbig_dots_332-62_blue_with_charcoal.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Breeze",
+      "brand":50,
+      "collection_number": 423,
+      "default_colorway": 12,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 1,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Buttercup",
+          "colorway_number": 12,
+          "image": "kbreeze_423-12_buttercup.jpg",
+          "thumb": "kbreeze_423-12_buttercup.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Cabana Stripe",
+      "brand":50,
+      "collection_number": 267,
+      "default_colorway": 91,
+      "crypton": 1,
+      "coated": 0,
+      "bleach_cleanable": 0,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Cacao",
+          "colorway_number": 91,
+          "image": "scabana_stripe_267-91_cacao.jpg",
+          "thumb": "kcabana_stripe_267-91_cacao.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Calypso",
+      "brand":50,
+      "collection_number": 266,
+      "default_colorway": 27,
+      "crypton": 1,
+      "coated": 0,
+      "bleach_cleanable": 0,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Tangelo",
+          "colorway_number": 27,
+          "image": "scalypso_266-27_tangelo.jpg",
+          "thumb": "kcalypso_266-27_tangelo.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Calypso II",
+      "brand":50,
+      "collection_number": 483,
+      "default_colorway": 81,
+      "crypton": 1,
+      "coated": 0,
+      "bleach_cleanable": 1,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Dune",
+          "colorway_number": 81,
+          "image": "scalypso_ii_483-81_dune.jpg",
+          "thumb": "kcalypso_ii_483-81_dune.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Coffee Berry II",
+      "brand":50,
+      "collection_number": 480,
+      "default_colorway": 87,
+      "crypton": 1,
+      "coated": 0,
+      "bleach_cleanable": 1,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Serene",
+          "colorway_number": 87,
+          "image": "scoffee_berry_ii_480-87_serene.jpg",
+          "thumb": "kcoffee_berry_ii_480-87_serene.jpg"
+        }
+      ]
+    },
+    {
+      "title":"Comfort",
+      "brand":50,
+      "collection_number": 343,
+      "default_colorway": 80,
+      "crypton": 0,
+      "coated": 0,
+      "bleach_cleanable": 0,
+      "outdoor": 0,
+      "colorways": [
+        {
+          "title": "Stone",
+          "colorway_number": 80,
+          "image": "scomfort_343-80_stone.jpg",
+          "thumb": "kcomfort_343-80_stone.jpg"
+        }
+      ]
+    }
+  ]
+}

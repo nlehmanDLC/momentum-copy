@@ -1,16 +1,16 @@
 <template>
     <div style="width: 172px;" class="mr-2 flex flex-col h-full justify-between">
         <div class="flex flex-col pt-6">
-            <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
+            <router-link to="/products?brand=21" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
                 Products
             </router-link>
-            <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
+            <router-link to="/textus" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
                 News
             </router-link>
-            <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
+            <router-link to="/textus" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
                 Constructions
             </router-link>
-            <router-link to="/" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
+            <router-link to="/textus" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
                 Design
             </router-link>
         </div>

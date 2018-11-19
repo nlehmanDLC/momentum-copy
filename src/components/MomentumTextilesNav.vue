@@ -1,7 +1,7 @@
 <template>
     <div style="width: 172px;" class="mr-2 flex flex-col h-full justify-between">
         <div class="flex flex-col pt-6">
-            <router-link to="/momentum_textiles" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
+            <router-link to="/products?brand=81" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">
                 Products
             </router-link>
             <router-link to="/momentum_textiles_news" class="no-underline text-grey-darker hover:text-orange text-xs mb-2 font-sans">

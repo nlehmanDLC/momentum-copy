@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="container bg-white mx-auto p-6" style="width:900px; height:600px;">
+    <div id="app" class="container bg-white mx-auto py-6 px-8" style="width:960px; height:600px;">
         <div class="flex flex-col h-full justify-between">
             <router-view></router-view>
             <div class="flex mt-3 -mb-3">
