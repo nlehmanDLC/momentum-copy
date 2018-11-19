@@ -2,11 +2,11 @@
     <div style="width: 270px" class="border-r border-grey">
         <filter-set :is-open="openFilter === 'type'" set-name='type' v-on:open-filter="setFilter">
             <template slot="title">Type:</template>
-            <div class="mt-2"><input type="checkbox"> Upholstery</div>
-            <div class="mt-1 ml-4"><input type="checkbox"> Crypton</div>
-            <div class="mt-1 ml-4"><input type="checkbox"> Coated</div>
-            <div class="mt-1 ml-4"><input type="checkbox"> Bleach Cleanable</div>
-            <div class="mt-1 ml-4"><input type="checkbox"> Outdoor</div>
+            <div class="mt-2"><input type="checkbox" v-model="filters.upholstery"> Upholstery</div>
+            <div class="mt-1 ml-4"><input type="checkbox" v-model="filters.crypton"> Crypton</div>
+            <div class="mt-1 ml-4"><input type="checkbox" v-model="filters.coated"> Coated</div>
+            <div class="mt-1 ml-4"><input type="checkbox" v-model="filters.bleach_cleanable"> Bleach Cleanable</div>
+            <div class="mt-1 ml-4"><input type="checkbox" v-model="filters.outdoor"> Outdoor</div>
         </filter-set>
         <filter-set :is-open="openFilter === 'style'" set-name='style' v-on:open-filter="setFilter">
             <template slot="title">Style:</template>
@@ -66,6 +66,7 @@
 import FilterSet from "@/components/FilterSet.vue";
 
 export default {
+  props: ["filters"],
   name: "product-filters",
   components: { FilterSet },
   data() {

@@ -21,9 +21,9 @@
         <slide-out-nav/>
 
         <div class="flex mt-8">
-            <product-filters class="flex-no-shrink"/>
+            <product-filters :filters="filters" class="flex-no-shrink"/>
             <div class="flex flex-wrap w-full ml-16">
-                <div class="w-1/5" v-for="collection in collections" v-bind:key="collection.collection_number">
+                <div class="w-1/5" v-for="collection in filteredCollections" v-bind:key="collection.collection_number">
                     <div class="flex flex-col items-center justify-center text-xxs">
                         <div>
                             <img :src="getDefaultColorway(collection)" style="width: 100px; height: 100px;">
@@ -51,8 +51,34 @@ export default {
   },
   data() {
     return {
-      collections: jsonData.collections
+      collections: jsonData.collections,
+      filters: {
+        upholstery: 1,
+        crypton: 0,
+        coated: 0,
+        bleach_cleanable: 0,
+        outdoor: 0
+      }
     };
+  },
+  computed: {
+    filteredCollections: function() {
+      return this.collections.filter(function(collection) {
+        if (this.filters.crypton && !collection.crypton) {
+          return false;
+        }
+
+        if (this.filters.coated && !collection.coated) {
+          return false;
+        }
+
+        if (this.filters.bleach_cleanable && !collection.bleach_cleanable) {
+          return false;
+        }
+
+        return !(this.filters.outdoor && !collection.outdoor);
+      }, this);
+    }
   },
   methods: {
     getDefaultColorway(collection) {
