@@ -46,8 +46,8 @@
         <filter-set :is-open="openFilter === 'durability'" set-name='durability' v-on:open-filter="setFilter">
             <template slot="title">Durability:</template>
             <div class="flex flex-wrap mt-2">
-                <div class="w-1/2"><input type="checkbox"> 50,000</div>
-                <div class="w-1/2"><input type="checkbox"> 100,000</div>
+                <div class="w-1/2"><input type="checkbox" v-model="filters.durability50k"> 50,000</div>
+                <div class="w-1/2"><input type="checkbox" v-model="filters.durability100k"> 100,000</div>
             </div>
         </filter-set>
         <filter-set :is-open="openFilter === 'inventory'" set-name='inventory' v-on:open-filter="setFilter">

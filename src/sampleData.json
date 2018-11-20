@@ -15,6 +15,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 125.50,
+      "durability": 100000,
       "colorways": [
         {
           "title": "Madder",
@@ -81,6 +82,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 57.00,
+      "durability": 65000,
       "colorways": [
         {
           "title": "Midnight",
@@ -105,6 +107,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 56,
+      "durability": 100000,
       "colorways": [
         {
           "title": "Ice Cap",
@@ -129,6 +132,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 56,
+      "durability": 92000,
       "colorways": [
         {
           "title": "Poolside",
@@ -153,6 +157,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 130.5,
+      "durability": 50000,
       "colorways": [
         {
           "title": "Ivory Grey",
@@ -177,6 +182,7 @@
       "organic": 0,
       "random_style": 1,
       "net_price": 51.1,
+      "durability": 50000,
       "colorways": [
         {
           "title": "Rosario Beach",
@@ -201,6 +207,7 @@
       "organic": 0,
       "random_style": 1,
       "net_price": 43.5,
+      "durability": 105000,
       "colorways": [
         {
           "title": "Calm",
@@ -225,6 +232,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 307,
+      "durability": 100000,
       "colorways": [
         {
           "title": "Brown Bear",
@@ -249,6 +257,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 72.5,
+      "durability": 82000,
       "colorways": [
         {
           "title": "Blue with Charcoal",
@@ -273,6 +282,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 62.5,
+      "durability": 100000,
       "colorways": [
         {
           "title": "Buttercup",
@@ -297,6 +307,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 50.5,
+      "durability": 100000,
       "colorways": [
         {
           "title": "Cacao",
@@ -321,6 +332,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 40.25,
+      "durability": 60000,
       "colorways": [
         {
           "title": "Tangelo",
@@ -345,6 +357,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 40.5,
+      "durability": 50000,
       "colorways": [
         {
           "title": "Dune",
@@ -369,6 +382,7 @@
       "organic": 0,
       "random_style": 1,
       "net_price": 43.5,
+      "durability": 70000,
       "colorways": [
         {
           "title": "Serene",
@@ -393,6 +407,7 @@
       "organic": 0,
       "random_style": 0,
       "net_price": 86.5,
+      "durability": 100000,
       "colorways": [
         {
           "title": "Stone",

@@ -112,6 +112,14 @@ export default {
           return false;
         }
 
+        if (this.filters.durability50k && collection.durability < 50000) {
+          return false;
+        }
+
+        if (this.filters.durability100k && collection.durability < 100000) {
+          return false;
+        }
+
         return !(this.filters.outdoor && !collection.outdoor);
       }, this);
     }
