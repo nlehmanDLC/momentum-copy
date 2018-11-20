@@ -26,7 +26,9 @@
                 <div class="w-1/5" v-for="collection in filteredCollections" v-bind:key="collection.collection_number">
                     <div class="flex flex-col items-center justify-center text-xxs mb-4">
                         <div>
-                            <img :src="getDefaultColorway(collection)" style="width: 100px; height: 100px;">
+                            <router-link :to="'/pattern/' + collection.collection_number + '/colorway/' + collection.default_colorway">
+                                <img :src="getDefaultColorway(collection)" style="width: 100px; height: 100px;">
+                            </router-link>
                         </div>
                         <div class="leading-open">{{ collection.title }} {{ collection.collection_number}}</div>
                     </div>
@@ -129,7 +131,7 @@ export default {
       const defaultColorway = collection.colorways.filter(function(colorway) {
         return colorway.colorway_number === collection.default_colorway;
       });
-      return require("../assets/colorways/" + defaultColorway[0].thumb);
+      return require("../assets/colorways/" + defaultColorway[0].medium);
     }
   }
 };

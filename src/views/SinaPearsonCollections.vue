@@ -1,13 +1,15 @@
 <template>
-    <div class="h-full flex flex-col">
-        <heading>
-            <img src="../assets/collections.gif">
-            <template slot="brand"><img src="../assets/sinapearson_logo.gif"></template>
-        </heading>
-        <div class="flex-1 flex">
-            <sina-pearson-nav/>
-            <div class="flex-1 pt-6">
-                <news-carousel :articles="articles"></news-carousel>
+    <div>
+        <div class="h-full flex flex-col">
+            <heading>
+                <img src="../assets/collections.gif">
+                <template slot="brand"><img src="../assets/sinapearson_logo.gif"></template>
+            </heading>
+            <div class="flex-1 flex">
+                <sina-pearson-nav/>
+                <div class="flex-1 pt-6">
+                    <news-carousel :articles="articles"></news-carousel>
+                </div>
             </div>
         </div>
     </div>

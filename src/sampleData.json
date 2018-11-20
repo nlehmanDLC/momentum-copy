@@ -21,49 +21,63 @@
           "title": "Madder",
           "colorway_number": 28,
           "image": "safrican_stripe_159-28_madder.jpg",
-          "thumb": "cafrican_stripe_159-28_madder.jpg"
+          "thumb": "cafrican_stripe_159-28_madder.jpg",
+          "medium": "kafrican_stripe_159-28_madder.jpg",
+          "color": "purple_red"
         },
         {
           "title": "Cochineal",
           "colorway_number": 30,
           "image": "safrican_stripe_159-30_cochineal.jpg",
-          "thumb": "cafrican_stripe_159-30_cochineal.jpg"
+          "thumb": "cafrican_stripe_159-30_cochineal.jpg",
+          "medium": "kafrican_stripe_159-30_cochineal.jpg",
+          "color": "red"
         },
         {
           "title": "Potash",
           "colorway_number": 62,
           "image": "safrican_stripe_159-62_potash.jpg",
-          "thumb": "cafrican_stripe_159-62_potash.jpg"
+          "thumb": "cafrican_stripe_159-62_potash.jpg",
+          "medium": "kafrican_stripe_159-62_potash.jpg",
+          "color": "blue"
         },
         {
           "title": "Serengeti",
           "colorway_number": 75,
           "image": "safrican_stripe_159-75_serengeti.jpg",
-          "thumb": "cafrican_stripe_159-75_serengeti.jpg"
+          "thumb": "cafrican_stripe_159-75_serengeti.jpg",
+          "medium": "kafrican_stripe_159-75_serengeti.jpg",
+          "color": "yellow_green"
         },
         {
           "title": "Bone",
           "colorway_number": 80,
           "image": "safrican_stripe_159-80_bone.jpg",
-          "thumb": "cafrican_stripe_159-80_bone.jpg"
+          "thumb": "cafrican_stripe_159-80_bone.jpg",
+          "medium": "kafrican_stripe_159-80_bone.jpg",
+          "color": "warm_neutral"
         },
         {
           "title": "Ivory",
           "colorway_number": 81,
           "image": "safrican_stripe_159-81_ivory.jpg",
-          "thumb": "kafrican_stripe_159-81_ivory.jpg"
+          "thumb": "cafrican_stripe_159-81_ivory.jpg",
+          "medium": "kafrican_stripe_159-81_ivory.jpg"
         },
         {
           "title": "Elephant",
           "colorway_number": 87,
           "image": "safrican_stripe_159-87_elephant.jpg",
-          "thumb": "cafrican_stripe_159-87_elephant.jpg"
+          "thumb": "cafrican_stripe_159-87_elephant.jpg",
+          "medium": "kafrican_stripe_159-87_elephant.jpg",
+          "color": "cool-neutral"
         },
         {
           "title": "Bark Cloth",
           "colorway_number": 91,
           "image": "safrican_stripe_159-91_bark_cloth.jpg",
-          "thumb": "cafrican_stripe_159-91_bark_cloth.jpg"
+          "thumb": "cafrican_stripe_159-91_bark_cloth.jpg",
+          "medium": "kafrican_stripe_159-91_bark_cloth.jpg"
         }
       ]
     },
@@ -88,7 +102,8 @@
           "title": "Midnight",
           "colorway_number": 51,
           "image": "salhambra_401-51_midnight.jpg",
-          "thumb": "kalhambra_401-51_midnight.jpg"
+          "thumb": "calhambra_401-51_midnight.jpg",
+          "medium": "kalhambra_401-51_midnight.jpg"
         }
       ]
     },
@@ -113,7 +128,8 @@
           "title": "Ice Cap",
           "colorway_number": 82,
           "image": "sallover_372-82_ice_cap.jpg",
-          "thumb": "kallover_372-82_ice_cap.jpg"
+          "thumb": "callover_372-82_ice_cap.jpg",
+          "medium": "kallover_372-82_ice_cap.jpg"
         }
       ]
     },
@@ -138,7 +154,8 @@
           "title": "Poolside",
           "colorway_number": 75,
           "image": "sanywhere_371-75_poolside.jpg",
-          "thumb": "kanywhere_371-75_poolside.jpg"
+          "thumb": "canywhere_371-75_poolside.jpg",
+          "medium": "kanywhere_371-75_poolside.jpg"
         }
       ]
     },
@@ -163,7 +180,8 @@
           "title": "Ivory Grey",
           "colorway_number": 81,
           "image": "sbauhaus_texture_174-81_ivory_grey.jpg",
-          "thumb": "kbauhaus_texture_174-81_ivory_grey.jpg"
+          "thumb": "cbauhaus_texture_174-81_ivory_grey.jpg",
+          "medium": "kbauhaus_texture_174-81_ivory_grey.jpg"
         }
       ]
     },
@@ -188,7 +206,8 @@
           "title": "Rosario Beach",
           "colorway_number": 79,
           "image": "sbeachcomber_178-79_rosario_beach.jpg",
-          "thumb": "kbeachcomber_178-79_rosario_beach.jpg"
+          "thumb": "cbeachcomber_178-79_rosario_beach.jpg",
+          "medium": "kbeachcomber_178-79_rosario_beach.jpg"
         }
       ]
     },
@@ -213,7 +232,8 @@
           "title": "Calm",
           "colorway_number": 62,
           "image": "sbeachcomber_ii_482-62_calm.jpg",
-          "thumb": "kbeachcomber_ii_482-62_calm.jpg"
+          "thumb": "cbeachcomber_ii_482-62_calm.jpg",
+          "medium": "kbeachcomber_ii_482-62_calm.jpg"
         }
       ]
     },
@@ -238,7 +258,8 @@
           "title": "Brown Bear",
           "colorway_number": 91,
           "image": "sbear_230-91_brown_bear.jpg",
-          "thumb": "kbear_230-91_brown_bear.jpg"
+          "thumb": "cbear_230-91_brown_bear.jpg",
+          "medium": "kbear_230-91_brown_bear.jpg"
         }
       ]
     },
@@ -263,7 +284,8 @@
           "title": "Blue with Charcoal",
           "colorway_number": 62,
           "image": "sbig_dots_332-62_blue_with_charcoal.jpg",
-          "thumb": "kbig_dots_332-62_blue_with_charcoal.jpg"
+          "thumb": "cbig_dots_332-62_blue_with_charcoal.jpg",
+          "medium": "kbig_dots_332-62_blue_with_charcoal.jpg"
         }
       ]
     },
@@ -288,7 +310,8 @@
           "title": "Buttercup",
           "colorway_number": 12,
           "image": "kbreeze_423-12_buttercup.jpg",
-          "thumb": "kbreeze_423-12_buttercup.jpg"
+          "thumb": "cbreeze_423-12_buttercup.jpg",
+          "medium": "kbreeze_423-12_buttercup.jpg"
         }
       ]
     },
@@ -313,7 +336,8 @@
           "title": "Cacao",
           "colorway_number": 91,
           "image": "scabana_stripe_267-91_cacao.jpg",
-          "thumb": "kcabana_stripe_267-91_cacao.jpg"
+          "thumb": "ccabana_stripe_267-91_cacao.jpg",
+          "medium": "kcabana_stripe_267-91_cacao.jpg"
         }
       ]
     },
@@ -338,7 +362,8 @@
           "title": "Tangelo",
           "colorway_number": 27,
           "image": "scalypso_266-27_tangelo.jpg",
-          "thumb": "kcalypso_266-27_tangelo.jpg"
+          "thumb": "ccalypso_266-27_tangelo.jpg",
+          "medium": "kcalypso_266-27_tangelo.jpg"
         }
       ]
     },
@@ -363,7 +388,8 @@
           "title": "Dune",
           "colorway_number": 81,
           "image": "scalypso_ii_483-81_dune.jpg",
-          "thumb": "kcalypso_ii_483-81_dune.jpg"
+          "thumb": "ccalypso_ii_483-81_dune.jpg",
+          "medium": "kcalypso_ii_483-81_dune.jpg"
         }
       ]
     },
@@ -388,7 +414,8 @@
           "title": "Serene",
           "colorway_number": 87,
           "image": "scoffee_berry_ii_480-87_serene.jpg",
-          "thumb": "kcoffee_berry_ii_480-87_serene.jpg"
+          "thumb": "ccoffee_berry_ii_480-87_serene.jpg",
+          "medium": "kcoffee_berry_ii_480-87_serene.jpg"
         }
       ]
     },
@@ -413,7 +440,8 @@
           "title": "Stone",
           "colorway_number": 80,
           "image": "scomfort_343-80_stone.jpg",
-          "thumb": "kcomfort_343-80_stone.jpg"
+          "thumb": "ccomfort_343-80_stone.jpg",
+          "medium": "kcomfort_343-80_stone.jpg"
         }
       ]
     }

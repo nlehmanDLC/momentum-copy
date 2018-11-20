@@ -16,138 +16,144 @@ export default new Router({
       path: "/about_momentum_group",
       name: "aboutMomentumGroup",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/aboutMomentumGroup.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/aboutMomentumGroup.vue")
     },
     {
       path: "/momentum_group_news",
       name: "news",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/News.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/News.vue")
     },
     {
       path: "/momentum_group_awards",
       name: "awards",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Awards.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/Awards.vue")
     },
     {
       path: "/momentum_group_terms_and_conditions",
       name: "terms",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Terms.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/Terms.vue")
     },
     {
       path: "/contact_momentum_group",
       name: "contact",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Contact.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/Contact.vue")
     },
     {
       path: "/memo-returns",
       name: "returns",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Returns.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/Returns.vue")
     },
     {
       path: "/momentum_group_faq",
       name: "faq",
-      component: () => import(/* webpackChunkName: "about" */ "./views/Faq.vue")
+      component: () => import(/* webpackChunkName: "momentumTextiles" */ "./views/Faq.vue")
     },
     {
       path: "/environment",
       name: "environment",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Environment.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/Environment.vue")
     },
     {
       path: "/sinapearson",
       name: "sinapearson",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Sinapearson.vue")
+        import(/* webpackChunkName: "sinapearson" */ "./views/Sinapearson.vue")
     },
     {
       path: "/momentum_textiles",
       name: "momentumTextiles",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/MomentumTextiles.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/MomentumTextiles.vue")
     },
     {
       path: "/loomsource",
       name: "loomsource",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/LoomSource.vue")
+        import(/* webpackChunkName: "loomsource" */ "./views/LoomSource.vue")
     },
     {
       path: "/textus",
       name: "textus",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Textus.vue")
+        import(/* webpackChunkName: "textus" */ "./views/Textus.vue")
     },
     {
       path: "/sina_pearson_collections",
       name: "sinaPearsonCollections",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/SinaPearsonCollections.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/SinaPearsonCollections.vue")
     },
     {
       path: "/sina_pearson_design",
       name: "sinaPearsonDesign",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/SinaPearsonDesign.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/SinaPearsonDesign.vue")
     },
     {
       path: "/color_stories",
       name: "colorStories",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/ColorStories.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/ColorStories.vue")
     },
     {
       path: "/color_story_november_2018",
       name: "colorStoryNovember2018",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/ColorNovember2018.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/ColorNovember2018.vue")
     },
     {
       path: "/travel_journals",
       name: "travelJournals",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/TravelJournals.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/TravelJournals.vue")
     },
     {
       path: "/travel_journal_barcelona",
       name: "travelJournalBarcelona",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/TravelJournalBarcelona.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/TravelJournalBarcelona.vue")
     },
     {
       path: "/sina_pearson_press",
       name: "sinaPearsonPress",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/SinaPearsonPress.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/SinaPearsonPress.vue")
     },
     {
       path: "/sp_pr_2017_01",
       name: "sinaPearsonPress201701",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/SinaPearsonPress201701.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/SinaPearsonPress201701.vue")
     },
     {
       path: "/sina_pearson_awards",
       name: "sinaPearsonAwards",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/SinaPearsonAwards.vue")
+        import(/* webpackChunkName: "sinaperason" */ "./views/SinaPearsonAwards.vue")
     },
     {
       path: "/products",
       name: "products",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Products.vue")
+        import(/* webpackChunkName: "products" */ "./views/Products.vue")
     },
     {
       path: "/momentum_textiles_news",
       name: "momentumTextilesNews",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/MomentumTextilesNews.vue")
+        import(/* webpackChunkName: "momentumTextiles" */ "./views/MomentumTextilesNews.vue")
+    },
+    {
+      path: "/pattern/:patternId/colorway/:colorwayId",
+      name: "pattern",
+      component: () =>
+        import(/*webpackChunkName: "products" */ "./views/Pattern.vue")
     }
   ]
 });
