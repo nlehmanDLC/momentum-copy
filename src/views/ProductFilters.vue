@@ -11,11 +11,11 @@
         <filter-set :is-open="openFilter === 'style'" set-name='style' v-on:open-filter="setFilter">
             <template slot="title">Style:</template>
             <div class="flex flex-wrap mt-2">
-                <div class="w-1/3"><input type="checkbox"> Solid</div>
-                <div class="w-1/3"><input type="checkbox"> Stripe</div>
-                <div class="w-1/3"><input type="checkbox"> Geometric</div>
-                <div class="w-1/3"><input type="checkbox"> Organic</div>
-                <div class="w-1/3"><input type="checkbox"> Random</div>
+                <div class="w-1/3"><input type="checkbox" v-model="filters.solid"> Solid</div>
+                <div class="w-1/3"><input type="checkbox" v-model="filters.stripe"> Stripe</div>
+                <div class="w-1/3"><input type="checkbox" v-model="filters.geometric"> Geometric</div>
+                <div class="w-1/3"><input type="checkbox" v-model="filters.organic"> Organic</div>
+                <div class="w-1/3"><input type="checkbox" v-model="filters.random_style"> Random</div>
             </div>
         </filter-set>
         <filter-set :is-open="openFilter === 'color'" set-name='color' v-on:open-filter="setFilter">
@@ -38,9 +38,9 @@
         <filter-set :is-open="openFilter === 'price'" set-name='price' v-on:open-filter="setFilter">
             <template slot="title">Net Price:</template>
             <div class="flex flex-wrap mt-2">
-                <div class="w-1/2"><input type="checkbox"> Under $30</div>
-                <div class="w-1/2"><input type="checkbox"> $30-$60</div>
-                <div class="w-1/2"><input type="checkbox"> Over %60</div>
+                <div class="w-1/2"><input type="checkbox" v-model="filters.price.under30" v-on:change="checkPrice('under30')"> Under $30</div>
+                <div class="w-1/2"><input type="checkbox" v-model="filters.price.between30and60" v-on:change="checkPrice('between30and60')"> $30-$60</div>
+                <div class="w-1/2"><input type="checkbox" v-model="filters.price.over60" v-on:change="checkPrice('over60')"> Over $60</div>
             </div>
         </filter-set>
         <filter-set :is-open="openFilter === 'durability'" set-name='durability' v-on:open-filter="setFilter">
@@ -77,6 +77,14 @@ export default {
   methods: {
     setFilter(filterName) {
       this.openFilter = filterName;
+    },
+    checkPrice(price) {
+      let priceArray = Object.keys(this.filters.price);
+      for (const priceFilter of priceArray) {
+        if (priceFilter !== price) {
+          this.filters.price[priceFilter] = false;
+        }
+      }
     }
   }
 };
